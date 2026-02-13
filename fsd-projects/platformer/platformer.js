@@ -26,29 +26,29 @@ $(function () {
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
 
-    // TODO 1 - Enable the Grid
-    // toggleGrid();
+      // TODO 1 - Enable the Grid
+      ToggleGrid();
 
-
-    // TODO 2 - Create Platforms
-
-
-
-
-    // TODO 3 - Create Collectables
-
-
-
+      // TODO #1 2 - Create Platforms
+      createPlatform(150, 620, 150, 5, "#ca7367a6");
+      createPlatform(400, 500, 150, 5, "#ca7367a6");
+      createPlatform(650, 390, 150, 5, "#ca7367a6");
+      createPlatform(900, 300, 150, 5, "#ca7367a6");
+      createPlatform(1150, 190, 150, 5, "#ca7367a6");
     
-    // TODO 4 - Create Cannons
-
-
+      // TODO 3 - Create Collectables
+      createCollectable("grace", 220, 590);
+      createCollectable("diamond", 720, 200);
+      createCollectable("kennedi", 1190, 140);
+      
+      // TODO 4 - Create Cannons
+          
+        
+        
+          //////////////////////////////////
+          // ONLY CHANGE ABOVE THIS POINT //
+          //////////////////////////////////
     
-    
-    //////////////////////////////////
-    // ONLY CHANGE ABOVE THIS POINT //
-    //////////////////////////////////
+    registerSetup(setup);
   }
-
-  registerSetup(setup);
 });
