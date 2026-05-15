@@ -85,7 +85,9 @@ var init = function (window) {
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            
+            if (circle.x === x < 0){
+                
+            }
             
         
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
